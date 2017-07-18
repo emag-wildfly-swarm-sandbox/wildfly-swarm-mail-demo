@@ -5,6 +5,7 @@ WildFly Swarm Mail Demo
 ## Prerequisites
 
 * Setup SMTP Server like a postfix
+  * Supposed to listen to 25 on localhost
 
 ## Build & Run
 
