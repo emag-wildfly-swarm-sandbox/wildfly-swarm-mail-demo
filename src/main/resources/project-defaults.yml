@@ -1,0 +1,13 @@
+swarm:
+  mail:
+    mail-sessions:
+      my-mail-session:
+        smtp-server:
+          outbound-socket-binding-ref: my-mail-smtp
+  network:
+    socket-binding-groups:
+      standard-sockets:
+        outbound-socket-bindings:
+          my-mail-smtp:
+            remote-host: localhost
+            remote-port: 1025
