@@ -73,6 +73,11 @@
       <groupId>org.wildfly.swarm</groupId>
       <artifactId>mail</artifactId>
     </dependency>
+    <!-- for checking fractions -->
+    <!--<dependency>-->
+      <!--<groupId>org.wildfly.swarm</groupId>-->
+      <!--<artifactId>management</artifactId>-->
+    <!--</dependency>-->
   </dependencies>
 
   <build>
